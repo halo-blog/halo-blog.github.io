@@ -16,7 +16,7 @@
 </script><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
-  localSearch: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
   translate: undefined,
   noticeOutdate: undefined,
   highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":400},
@@ -59,7 +59,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2021-04-24 01:02:04'
+  postUpdate: '2021-04-24 02:07:18'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -147,19 +147,17 @@
       document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
     }
     })(window)</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lanqilu/BlogResources@0.0.13/bilibili/bilibiliBanner.css"  media="defer" onload="this.media='screen'"><link rel="stylesheet" href="/css/butterfly.css"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="HALO" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://img.imgdb.cn/item/608289f3d1a9ae528feb09a8.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">18</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://img.imgdb.cn/item/5fc129d415e771908483c0d5.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">HALO</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">HALO</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/23/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-%E8%A1%8C%E5%88%97%E5%BC%8F/" title="线性代数-行列式">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc129d415e771908483c0d5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="线性代数-行列式"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/23/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-%E8%A1%8C%E5%88%97%E5%BC%8F/" title="线性代数-行列式">线性代数-行列式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-23T03:26:54.000Z" title="发表于 2021-04-23 11:26:54">2021-04-23</time></span></div><div class="content">二阶与三阶行列式二阶行列式，记作：
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://img.imgdb.cn/item/608289f3d1a9ae528feb09a8.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://img.imgdb.cn/item/5fc129d415e771908483c0d5.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">HALO</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">HALO</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/23/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-%E8%A1%8C%E5%88%97%E5%BC%8F/" title="线性代数-行列式">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc129d415e771908483c0d5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="线性代数-行列式"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/23/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-%E8%A1%8C%E5%88%97%E5%BC%8F/" title="线性代数-行列式">线性代数-行列式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-23T03:26:54.000Z" title="发表于 2021-04-23 11:26:54">2021-04-23</time></span></div><div class="content">二阶与三阶行列式
+二阶行列式，记作：
 
 $$\begin{vmatrix}
   a_{1} & a_{2}\\
   b_{1} & b_{2}
 \end{vmatrix}$$
 
-
-
 三阶行列式，记作：
 
 $$\begin{vmatrix}a_{1} & a_{2} & a_{3}\\b_{1} & b_{2} & b_{3}\\c_{1} & c_{2} & c_{3}\end{vmatrix}$$
-
 
 
 $$\begin{vmatrix}
@@ -169,17 +167,23 @@ $$\begin{vmatrix}
 \end{vmatrix}= a_{1}b_{2}c_{3}+a_{2}b_{3}c_{1}+a_{3}b_{1}c_{2}-a_{3}b_{2}c_{1}-a_{1}b_{3}c_{2}$$
 
 
+全排列和对换
+排列及其逆序数
+把$n$个不同的元素排成一列，叫做这$n$个元素的全排列（也简称排列）
+$n$个不同元素的所有排列的种数，通常用$P_{n}$表示：
 
-全排列和对换排列及其逆序数把$n$个不同的元素排成一列，叫做这$n$个元素的全排列（也简称排列）$n$个不同元素的所有排列的种数，通常用$P_{n}$表示：
-
-$$P_{n}=n\cdot(n-1)\cdot\ ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/02_%E7%89%A9%E7%90%86%E5%B1%82/" title="物理层">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="物理层"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/02_%E7%89%A9%E7%90%86%E5%B1%82/" title="物理层">物理层</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-22T14:22:00.631Z" title="发表于 2021-04-22 22:22:00">2021-04-22</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span></div><div class="content">物理层的基本概念物理层解决如何在连接各种计算机的传输媒体上传输数据比特流，而不是指具体的传输媒体。
+$$P_{n}=n\cdot(n-1)\cdot\ ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/02_%E7%89%A9%E7%90%86%E5%B1%82/" title="物理层">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="物理层"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/02_%E7%89%A9%E7%90%86%E5%B1%82/" title="物理层">物理层</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-22T14:22:00.631Z" title="发表于 2021-04-22 22:22:00">2021-04-22</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span></div><div class="content">物理层的基本概念
+物理层解决如何在连接各种计算机的传输媒体上传输数据比特流，而不是指具体的传输媒体。
 物理层主要任务:确定与传输媒体接口有关的一些特性(定义标准)
 
+
 机械特性:定义物理连接的特性，规定物理连接时所采用的规格、接口形状、引线数目、引脚数量和排列情况。
+
 
 电气特性:规定传输二进制位时，线路上信号的电压范围、阻抗匹配、传输速率和距离限制等。
 
 某网络在物理层规定，信号的电平用+10V+15V表示二进制0，用-10V-15V表示二进制1，电线长度限于15m以内
+
 
 
 功能特性:指明某条线上出现的某一电平表示何种意义，接口部件的信号线的用途。
@@ -187,25 +191,35 @@ $$P_{n}=n\cdot(n-1)\cdot\ ...</div></div></div><div class="recent-post-item"><di
 描述一个物理层接口引脚处于高电平时的含义时
 
 
+
 规程特性:(过程特性) 定义各条物理线路的工作规程和时序关系。
 
 
-通信基础1 基本概念
+通信基础
+1 基本概念
 
 通信的目的是传送信息。
 数据:传送信息的实体，通常是有意义的符号序列。
 信号:数据的电气或电磁的表现，是数据在传输过程中的存在形式。
 
 数字信号:代表消息的参数取值是离散的。取值仅允许为有限的几个离散数值的数据(或信号)称为数字数据(或数字信号)。
-模拟信号:代表消息的参数取值是连续的。连续变化的数据(或 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/" title="计算机网络体系结构">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络体系结构"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/" title="计算机网络体系结构">计算机网络体系结构</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-22T14:09:39.308Z" title="发表于 2021-04-22 22:09:39">2021-04-22</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span></div><div class="content">计算机网络概述1 计算机网络的概念计算机网络：是一个将分散的、具有独立功能的计算机系统，通过通信设备与线路连接起来，由功能完善的软件实现资源共享和信息传递的系统。
+模拟信号:代表消息的参数取值是连续的。连续变 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/" title="计算机网络体系结构">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络体系结构"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/" title="计算机网络体系结构">计算机网络体系结构</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-22T14:09:39.308Z" title="发表于 2021-04-22 22:09:39">2021-04-22</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span></div><div class="content">计算机网络概述
+1 计算机网络的概念
+计算机网络：是一个将分散的、具有独立功能的计算机系统，通过通信设备与线路连接起来，由功能完善的软件实现资源共享和信息传递的系统。
 简而言之，计算机网络就是一些互联的、自治的计算机系统的集合。（互联：互联互通；自治：无主从关系）
-2 计算机网络的功能数据通信它是计算机网络最基本和最重要的功能，用来实现联网计算机之间的各种信息的传输，并将将分散在不同地理位置的计算机联系起来，进行统一的调配、控制和管理。比如，文件传输、电子邮件等应用，离开了计算机网络将无法实现。
-资源共享资源共享可以是软件共享、数据共享，也可以是硬件共享。使计算机网络中的资源互通有无分工协作，从而极大地提高硬件资源、软件资源和数据资源的利用率
-分布式处理当计算机网络中的某个计算机系统负荷过重时，可以将其处理的某个复杂任务分配给网络中的其他计算机系统，从而利用空闲计算机资源以提高整个系统的利用率。
-提高可靠性计算机网络中的各台计算机可以通过网络互为替代机。
-负载均衡将工作任务均衡地分配给计算机网络中的各台计算机。
+2 计算机网络的功能
+数据通信
+它是计算机网络最基本和最重要的功能，用来实现联网计算机之间的各种信息的传输，并将将分散在不同地理位置的计算机联系起来，进行统一的调配、控制和管理。比如，文件传输、电子邮件等应用，离开了计算机网络将无法实现。
+资源共享
+资源共享可以是软件共享、数据共享，也可以是硬件共享。使计算机网络中的资源互通有无分工协作，从而极大地提高硬件资源、软件资源和数据资源的利用率
+分布式处理
+当计算机网络中的某个计算机系统负荷过重时，可以将其处理的某个复杂任务分配给网络中的其他计算机系统，从而利用空闲计算机资源以提高整个系统的利用率。
+提高可靠性
+计算机网络中的各台计算机可以通过网络互为替代机。
+负载均衡
+将工作任务均衡地分配给计算机网络中的各台计算机。
 
-除以上几大主要功能外，计算机网络还可以实现电子化办公与服务、远程教育、娱乐等 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/21/%E8%80%83%E7%A0%94/%E8%80%83%E7%A0%94%E8%B5%84%E6%96%99%E6%94%B6%E9%9B%86/" title="考研资料收集">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="考研资料收集"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/21/%E8%80%83%E7%A0%94/%E8%80%83%E7%A0%94%E8%B5%84%E6%96%99%E6%94%B6%E9%9B%86/" title="考研资料收集">考研资料收集</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-21T09:06:12.000Z" title="发表于 2021-04-21 17:06:12">2021-04-21</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%80%83%E7%A0%94/">考研</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%80%83%E7%A0%94/">考研</a></span></div><div class="content"> 
+除以上几大主要功能外，计算机网络还可以实现电子化办公与服务、 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/21/%E8%80%83%E7%A0%94/%E8%80%83%E7%A0%94%E8%B5%84%E6%96%99%E6%94%B6%E9%9B%86/" title="考研资料收集">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="考研资料收集"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/21/%E8%80%83%E7%A0%94/%E8%80%83%E7%A0%94%E8%B5%84%E6%96%99%E6%94%B6%E9%9B%86/" title="考研资料收集">考研资料收集</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-21T09:06:12.000Z" title="发表于 2021-04-21 17:06:12">2021-04-21</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%80%83%E7%A0%94/">考研</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%80%83%E7%A0%94/">考研</a></span></div><div class="content"> 
 　　var timedate= new Date("December 25,2021"); 
 　　var times="研究生考试"; 
 　　var now = new Date(); 
@@ -214,14 +228,17 @@ $$P_{n}=n\cdot(n-1)\cdot\ ...</div></div></div><div class="recent-post-item"><di
 　　if (time >= 0) ; 
 document.write("现在离2022年"+times+"还有: "+time +" 天"); 
  
-
-📚考研资料好好考研公众号，网课推荐好好考研公众号，每日更新资料
+📚考研资料
+好好考研公众号，网课推荐
+好好考研公众号，每日更新资料
 考研英语资料
+
 
 
 2022资料
 百度云盘链接
 提取码
+
 
 
 
@@ -249,15 +266,17 @@ u985
 
 
 
+
 2021资料
 百度云盘链接
 提取码
 
 
 
+
 2021英语唐迟资料合集
-云盘链接
-bgfa ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/18/%E8%A7%84%E5%88%92/%E8%AE%A1%E5%88%92%E4%B8%8E%E8%AE%B0%E5%BD%95/" title="计划与记录">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计划与记录"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/%E8%A7%84%E5%88%92/%E8%AE%A1%E5%88%92%E4%B8%8E%E8%AE%B0%E5%BD%95/" title="计划与记录">计划与记录</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T12:09:48.846Z" title="发表于 2021-04-18 20:09:48">2021-04-18</time></span></div><div class="content">⏳自律的人有多可怕
+云盘链接 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/18/%E8%A7%84%E5%88%92/%E8%AE%A1%E5%88%92%E4%B8%8E%E8%AE%B0%E5%BD%95/" title="计划与记录">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计划与记录"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/%E8%A7%84%E5%88%92/%E8%AE%A1%E5%88%92%E4%B8%8E%E8%AE%B0%E5%BD%95/" title="计划与记录">计划与记录</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T12:09:48.846Z" title="发表于 2021-04-18 20:09:48">2021-04-18</time></span></div><div class="content">⏳自律的人有多可怕
+
 我的梦想到底是什么，我有为此付出过什么吗
 无特殊情况，一天至少8小时考研学习时间
 其中每天原神时间不超过40分钟
@@ -265,16 +284,20 @@ bgfa ...</div></div></div><div class="recent-post-item"><div class="post_cover l
 1点前要睡觉
 锻炼？
 
-📝每日计划及记录2021年4月24日
- 17:30，一号楼二阶二，党日活动
+📝每日计划及记录
+2021年4月24日
+
+[ ] 17:30，一号楼二阶二，党日活动
 
 2021年4月23日
+
 
 
 内容
 备注
 用时
 完成情况
+
 
 
 
@@ -302,10 +325,12 @@ bgfa ...</div></div></div><div class="recent-post-item"><div class="post_cover l
 
 
 
-2021年4月22日待办事项
 
- 17:30-18:55，一号楼204，形势与政策
- 进化生物学作业
+2021年4月22日
+待办事项
+
+[X] 17:30-18:55，一号楼204，形势与政策
+[X] 进化生物学作业
 
 考研规划表
 
@@ -315,6 +340,7 @@ bgfa ...</div></div></div><div class="recent-post-item"><div class="post_cover l
 备注
 用时
 完成情况
+
 
 
 
@@ -354,6 +380,7 @@ bgfa ...</div></div></div><div class="recent-post-item"><div class="post_cover l
 ❌
 
 
+
 时间统计
 
 
@@ -364,13 +391,10 @@ bgfa ...</div></div></div><div class="recent-post-item"><div class="post_cover l
 
 
 
+
 Typora
-5:59:20
-写文档
-
-
-浏览器
-4:34:3 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/" title="创建型模式之简单工厂模式">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="创建型模式之简单工厂模式"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/" title="创建型模式之简单工厂模式">创建型模式之简单工厂模式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T10:04:00.612Z" title="发表于 2021-04-18 18:04:00">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span></div><div class="content">简单工厂模式概述简单工厂模式并不属于GoF 23个经典设计模式，但通常将它作为学习其他工厂模式的基础，它的设计思想很简单，其基本流程如下：
+5:59: ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/" title="创建型模式之简单工厂模式">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="创建型模式之简单工厂模式"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/" title="创建型模式之简单工厂模式">创建型模式之简单工厂模式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T10:04:00.612Z" title="发表于 2021-04-18 18:04:00">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span></div><div class="content">简单工厂模式概述
+简单工厂模式并不属于GoF 23个经典设计模式，但通常将它作为学习其他工厂模式的基础，它的设计思想很简单，其基本流程如下：
 
 首先将需要创建的各种不同对象（例如各种不同的Chart对象）的相关代码封装到不同的类中，这些类称为具体产品类，而将它们公共的代码进行抽象和提取后封装在一个抽象产品类中，每一个具体产品类都是抽象产品类的子类；
 然后提供一个工厂类用于创建各种产品，在工厂类中提供一个创建产品的工厂方法，该方法可以根据所传入的参数不同创建不同的具体产品对象；
@@ -379,7 +403,9 @@ Typora
 简单工厂模式定义如下：
 简单工厂模式(Simple Factory Pattern)：定义一个工厂类，它可以根据参数的不同返回不同类的实例，被创建的实例通常都具有共同的父类。
 因为在简单工厂模式中用于创建实例的方法是静态(static)方法，因此简单工厂模式又被称为静态工厂方法(Static Factory Method)模式，它属于类创建型模式。
-简单工厂模式的要点在于：当你需要什么，只需要传入一个正确的参数，就可以获取你所需要的对象，而无须 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0%E5%8F%8A%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/" title="设计模式概述及面向对象设计原则">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="设计模式概述及面向对象设计原则"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0%E5%8F%8A%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/" title="设计模式概述及面向对象设计原则">设计模式概述及面向对象设计原则</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T10:01:08.455Z" title="发表于 2021-04-18 18:01:08">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/">设计模式 | 面向对象编程</a></span></div><div class="content">设计模式概述掌握设计模式的层次
+简单工厂模式的要点在于：当你需要什么，只需要传入一个正确的参数，就可以获取你所需要的对象，而无 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0%E5%8F%8A%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/" title="设计模式概述及面向对象设计原则">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="设计模式概述及面向对象设计原则"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0%E5%8F%8A%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/" title="设计模式概述及面向对象设计原则">设计模式概述及面向对象设计原则</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T10:01:08.455Z" title="发表于 2021-04-18 18:01:08">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/">设计模式 | 面向对象编程</a></span></div><div class="content">设计模式概述
+掌握设计模式的层次
+
 第 1 层：刚开始学编程不久，听说过什么是设计模式
 第 2 层：有很长时间的编程经验，自己写了很多代码，其中用到了设计模式，但是自己却不知道
 第 3 层：学习过了设计模式，发现自己已经在使用了，并且发现了一些新的模式挺好用的
@@ -387,30 +413,35 @@ Typora
 第 5 层：代码写着写着，自己都没有意识到使用了设计模式，并且熟练的写了出来
 
 设计模式介绍
+
 设计模式是程序员在面对同类软件工程设计问题所总结出来的有用的经验，模式不是代码，而是某类问题的通用解决方案，设计模式（Design pattern）代表了最佳的实践。这些解决方案是众多软件开发人员经过相当长的一段时间的试验和错误总结出来的。
 设计模式的本质提高 软件的维护性，通用性和扩展性，并降低软件的复杂度。
 
-设计模式类型设计模式分为三种类型，共 23 种
+设计模式类型
+设计模式分为三种类型，共 23 种
 
 创建型模式：单例模式、抽象工厂模式、原型模式、建造者模式、工厂模式。
 结构型模式：适配器模式、桥接模式、装饰模式、组合模式、外观模式、享元模式、代理模式。
-行为型模式：模版方 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/18/C++/STL%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95-stl%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/" title="STL常用算法">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="STL常用算法"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/C++/STL%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95-stl%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/" title="STL常用算法">STL常用算法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T09:11:12.634Z" title="发表于 2021-04-18 17:11:12">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/STL/">STL</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/STL/">STL</a></span></div><div class="content">概述:
+行为型模式 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/18/C++/STL%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95-stl%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/" title="STL常用算法">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="STL常用算法"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/C++/STL%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95-stl%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/" title="STL常用算法">STL常用算法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T09:11:12.634Z" title="发表于 2021-04-18 17:11:12">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/STL/">STL</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/STL/">STL</a></span></div><div class="content">概述:
 
 算法主要是由头文件&lt;algorithm&gt; &lt;functional&gt; &lt;numeric&gt;组成。
 &lt;algorithm&gt;是所有STL头文件中最大的一个，范围涉及到比较、 交换、查找、遍历操作、复制、修改等等
 &lt;numeric&gt;体积很小，只包括几个在序列上面进行简单数学运算的模板函数
 &lt;functional&gt;定义了一些模板类,用以声明函数对象。
 
-常用遍历算法学习目标：掌握常用的遍历算法
+常用遍历算法
+学习目标：掌握常用的遍历算法
 算法简介：
 
 for_each //遍历容器
 transform //搬运容器到另一个容器中
 
-for_each功能描述：实现遍历容器
+for_each
+功能描述：实现遍历容器
 函数原型：
 
 for_each(iterator beg, iterator end, _func); // 遍历算法 遍历容器元素
+
 beg 开始迭代器
 end 结束迭代器
 _func 函数或者函数对象
@@ -418,19 +449,24 @@ _func 函数或者函数对象
 
 
 示例：
-12345678910111213141516171819202122232425262728293031323334353637383940#include &lt;iostr ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/18/C++/STL%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1-stl-han-shu-dui-xiang/" title="STL函数对象">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="STL函数对象"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/C++/STL%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1-stl-han-shu-dui-xiang/" title="STL函数对象">STL函数对象</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T09:10:42.906Z" title="发表于 2021-04-18 17:10:42">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/STL/">STL</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/STL/">STL</a></span></div><div class="content">函数对象函数对象概念概念：
+12345678910111213141516171819202122232425262728293031323334353637383940#include &lt;io ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/04/18/C++/STL%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1-stl-han-shu-dui-xiang/" title="STL函数对象">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="STL函数对象"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/C++/STL%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1-stl-han-shu-dui-xiang/" title="STL函数对象">STL函数对象</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T09:10:42.906Z" title="发表于 2021-04-18 17:10:42">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/STL/">STL</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/STL/">STL</a></span></div><div class="content">函数对象
+函数对象概念
+概念：
 
 重载函数调用操作符的类，其对象常称为函数对象
 函数对象使用重载的()时，行为类似函数调用，也叫仿函数
 
 本质：函数对象(仿函数)是一个类，不是一个函数
-函数对象使用特点：
+函数对象使用
+特点：
 
 函数对象在使用时，可以像普通函数那样调用, 可以有参数，可以有返回值
 函数对象超出普通函数的概念，函数对象可以有自己的状态
 函数对象可以作为参数传递
 
-12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758#include &lt;iostream&gt;#include &lt;string&gt;using namespace std;//1、函数对象在使用时，可以像普通函数那样调用, 可以有参数，可以有返回值class MyAdd &#123;public :    int operator()(int v1, int v2) &#123;        return v1 + v2;    &#125;&#125;;vo ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/18/C++/STL%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8-stl-container/" title="STL常用容器">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="STL常用容器"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/C++/STL%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8-stl-container/" title="STL常用容器">STL常用容器</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T07:08:52.298Z" title="发表于 2021-04-18 15:08:52">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/STL/">STL</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/STL/">STL</a></span></div><div class="content">string容器string基本概念本质：string是C++风格的字符串，而string本质上是一个类。
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758#include &lt;iostream&gt;#include &lt;string&gt;using namespace std;//1、函数对象在使用时，可以像普通函数那样调用, 可以有参数，可以有返回值class MyAdd &#123;public :    int operator()(int v1, int v2) &#123;        return v1 + v2;    &#125;&#125; ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/18/C++/STL%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8-stl-container/" title="STL常用容器">     <img class="post_bg" src="https://img.imgdb.cn/item/5fc1285715e771908483588b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="STL常用容器"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/18/C++/STL%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8-stl-container/" title="STL常用容器">STL常用容器</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-18T07:08:52.298Z" title="发表于 2021-04-18 15:08:52">2021-04-18</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/STL/">STL</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/STL/">STL</a></span></div><div class="content">string容器
+string基本概念
+本质：string是C++风格的字符串，而string本质上是一个类。
 string和char* 区别：
 
 char* 是一个指针
@@ -441,7 +477,8 @@ string是一个类，类内部封装了char*，管理这个字符串，是一个
 string 类内部封装了很多成员方法，例如：查找find，拷贝copy，删除delete 替换replace，插入insert
 string管理char*所分配的内存，不用担心复制越界和取值越界等，由类内部进行负责。
 
-string构造函数构造函数原型：
+string构造函数
+构造函数原型：
 
 string();  //创建一个空的字符串 例如: string str;
 string(const char* s); //使用字符串s初始化
@@ -449,11 +486,11 @@ string(const string&amp; str); //使用一个string对象初始化另一个strin
 string(int n, char c); //使用n个字符c初始化
 
 使用不同构造函数创建string对象，示例：
-12345678910111213141516171819202122232425 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://img.imgdb.cn/item/608289f3d1a9ae528feb09a8.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Halo</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">18</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/lanqilu"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">试运行</div></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
+12345678910111213141516171819202122232 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://img.imgdb.cn/item/608289f3d1a9ae528feb09a8.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Halo</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/lanqilu"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">试运行</div></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
             
             </div>
             <ul class="card-category-list" id="aside-cat-list">
-            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/STL/"><span class="card-category-list-name">STL</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"><span class="card-category-list-name">操作系统</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E7%89%A9%E5%AD%A6/"><span class="card-category-list-name">生物学</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%80%83%E7%A0%94/"><span class="card-category-list-name">考研</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"><span class="card-category-list-name">计算机网络</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"><span class="card-category-list-name">设计模式</span><span class="card-category-list-count">2</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/STL/" style="font-size: 1.5em; color: #99a9bf">STL</a> <a href="/tags/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/" style="font-size: 1.1em; color: #999">专业英语</a> <a href="/tags/%E5%88%86%E5%AD%90%E7%94%9F%E7%89%A9%E5%AD%A6/" style="font-size: 1.1em; color: #999">分子生物学</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 1.1em; color: #999">操作系统</a> <a href="/tags/%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BB/" style="font-size: 1.37em; color: #99a4b2">植物组织培养</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 1.1em; color: #999">考研</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 1.23em; color: #999ea6">计算机网络</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 1.1em; color: #999">设计模式</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" style="font-size: 1.1em; color: #999">设计模式 | 面向对象编程</a> <a href="/tags/%E9%81%97%E4%BC%A0%E5%AD%A6/" style="font-size: 1.1em; color: #999">遗传学</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/04/"><span class="card-archive-list-date">四月 2021</span><span class="card-archive-list-count">12</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/12/"><span class="card-archive-list-date">十二月 2020</span><span class="card-archive-list-count">6</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">18</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2019-06-30T16:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-04-23T17:02:04.011Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2021 By Halo</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Hexo/"><span class="card-category-list-name">Hexo</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/STL/"><span class="card-category-list-name">STL</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"><span class="card-category-list-name">操作系统</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E7%89%A9%E5%AD%A6/"><span class="card-category-list-name">生物学</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%80%83%E7%A0%94/"><span class="card-category-list-name">考研</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"><span class="card-category-list-name">计算机网络</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"><span class="card-category-list-name">设计模式</span><span class="card-category-list-count">2</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Hexo/" style="font-size: 1.1em; color: #999">Hexo</a> <a href="/tags/Html/" style="font-size: 1.1em; color: #999">Html</a> <a href="/tags/STL/" style="font-size: 1.5em; color: #99a9bf">STL</a> <a href="/tags/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/" style="font-size: 1.1em; color: #999">专业英语</a> <a href="/tags/%E5%88%86%E5%AD%90%E7%94%9F%E7%89%A9%E5%AD%A6/" style="font-size: 1.1em; color: #999">分子生物学</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 1.1em; color: #999">操作系统</a> <a href="/tags/%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BB/" style="font-size: 1.37em; color: #99a4b2">植物组织培养</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 1.1em; color: #999">考研</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 1.23em; color: #999ea6">计算机网络</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 1.1em; color: #999">设计模式</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" style="font-size: 1.1em; color: #999">设计模式 | 面向对象编程</a> <a href="/tags/%E9%81%97%E4%BC%A0%E5%AD%A6/" style="font-size: 1.1em; color: #999">遗传学</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/04/"><span class="card-archive-list-date">四月 2021</span><span class="card-archive-list-count">12</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/12/"><span class="card-archive-list-date">十二月 2020</span><span class="card-archive-list-count">7</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">19</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2019-06-30T16:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-04-23T18:07:18.607Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2021 By Halo</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

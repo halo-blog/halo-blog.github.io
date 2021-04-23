@@ -1,4 +1,17 @@
 const btf = {
+    /*文章内容详情的一些初始化特性*/
+  articleInit: function () {
+      // $('#articleContent a').attr('target', '_blank');
+      $('.footnote-backref').click(function () {
+          var target = $(this).attr('href');
+          console.log(target);
+          $('html, body').animate({
+             scrollTop: $(target).offset().top - 650 //65位设置的偏移值
+           }, 500);
+           return false;
+      });
+  },
+
   debounce: function (func, wait, immediate) {
     let timeout
     return function () {
