@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://halo123.top/2021/04/24/Web%E5%89%8D%E7%AB%AF/Flex%E5%B8%83%E5%B1%80/</loc>
+    
+    <lastmod>2021-04-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://halo123.top/2020/12/25/%E7%94%9F%E7%89%A9%E5%AD%A6/%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BB%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86_v202101062123/</loc>
     
     <lastmod>2021-04-24</lastmod>
@@ -627,14 +634,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/Java/</loc>
+    <loc>http://halo123.top/tags/SpringBoot/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/SpringBoot/</loc>
+    <loc>http://halo123.top/tags/Java/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -718,14 +725,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/Typora/</loc>
+    <loc>http://halo123.top/tags/Thymeleaf/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/Thymeleaf/</loc>
+    <loc>http://halo123.top/tags/Typora/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -972,14 +979,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/Java%E5%9F%BA%E7%A1%80/</loc>
+    <loc>http://halo123.top/categories/Java%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/Java%E6%A1%86%E6%9E%B6/</loc>
+    <loc>http://halo123.top/categories/Java%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
