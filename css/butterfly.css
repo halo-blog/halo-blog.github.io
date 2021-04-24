@@ -5,6 +5,18 @@
     --dark_page_color: rgba(18, 18, 18, 0.8)
 }
 
+
+/*搜索框*/
+#local-search .search-dialog {
+    border-radius: 0.8rem;
+}
+
+
+/*分割线图标*/
+hr::before{
+    content: '\f0fb'!important;
+}
+
 /*主页*/
 #page-header #scroll-down{
     display: none;
@@ -28,8 +40,8 @@ details p {
 }
 
 #page-header #post-info {
-    margin-top: -5em;
-    position: inherit;
+    bottom: 7rem;
+    pointer-events: none;
 }
 
 #page-header.not-home-page{
@@ -37,13 +49,13 @@ details p {
 }
 
 #page-header #page-site-info{
-    margin-top: -5em;
-    position: inherit;
+    bottom: 7rem;
+    pointer-events: none;
 }
 
 #page-site-info #site-title {
-    margin-top: -7.5em;
-    position: inherit;
+    bottom: 7rem;
+    pointer-events: none;
 }
 
 /*分割线样式*/
@@ -69,10 +81,16 @@ ol.toc {
 
 /*目录选中样式*/
 #aside-content #card-toc .toc-content .toc-link.active {
-    border-left-color: #00c4b6; 
-    background: #00c4b6;
+    border-left-color: #395ca3; 
+    background: #395ca3;
     color: #fff;
     border-radius: 8px;
+}
+
+/*目录宽度*/
+#aside-content .card-widget{
+    width: 18rem;
+    /* bottom: 3rem; */
 }
 
 /*代码边框*/
