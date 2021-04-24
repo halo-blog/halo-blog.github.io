@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://halo123.top/2021/04/24/%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F%E6%B5%8B%E8%AF%95/</loc>
+    
+    <lastmod>2021-04-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://halo123.top/2019/06/17/%E6%97%A5%E8%AF%AD%E8%BE%93%E5%85%A5%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    
+    <lastmod>2021-04-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://halo123.top/message/index.html</loc>
     
     <lastmod>2021-04-24</lastmod>
@@ -513,13 +527,6 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/2019/06/17/%E6%97%A5%E8%AF%AD%E8%BE%93%E5%85%A5%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
-    
-    <lastmod>2020-12-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://halo123.top/2020/01/03/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2020-12-24</lastmod>
@@ -676,13 +683,6 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/Redis/</loc>
-    <lastmod>2021-04-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://halo123.top/tags/JavaEE/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
@@ -690,7 +690,7 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/SpringMVC/</loc>
+    <loc>http://halo123.top/tags/Redis/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -698,6 +698,13 @@
   
   <url>
     <loc>http://halo123.top/tags/Spring/</loc>
+    <lastmod>2021-04-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://halo123.top/tags/SpringMVC/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1014,14 +1021,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/Redis/</loc>
+    <loc>http://halo123.top/categories/Spring/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/Spring/</loc>
+    <loc>http://halo123.top/categories/Redis/</loc>
     <lastmod>2021-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
