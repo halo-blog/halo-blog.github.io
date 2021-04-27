@@ -592,14 +592,14 @@
 
   
   <url>
-    <loc>http://halo123.top/tags/Git/</loc>
+    <loc>http://halo123.top/tags/BootStrap/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/BootStrap/</loc>
+    <loc>http://halo123.top/tags/Git/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -704,13 +704,6 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/MyBatis/</loc>
-    <lastmod>2021-04-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://halo123.top/tags/Maven/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
@@ -718,7 +711,7 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/Redis/</loc>
+    <loc>http://halo123.top/tags/MyBatis/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -732,7 +725,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/Spring/</loc>
+    <loc>http://halo123.top/tags/Redis/</loc>
+    <lastmod>2021-04-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://halo123.top/tags/JavaEE/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,7 +746,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/JavaEE/</loc>
+    <loc>http://halo123.top/tags/Spring/</loc>
+    <lastmod>2021-04-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://halo123.top/tags/Thymeleaf/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -767,13 +774,6 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/Thymeleaf/</loc>
-    <lastmod>2021-04-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://halo123.top/tags/%E6%97%A5%E8%AF%AD/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
@@ -781,14 +781,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</loc>
+    <loc>http://halo123.top/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>http://halo123.top/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -816,14 +816,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/%E8%80%83%E7%A0%94/</loc>
+    <loc>http://halo123.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>http://halo123.top/tags/%E8%80%83%E7%A0%94/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -921,6 +921,13 @@
   </url>
   
   <url>
+    <loc>http://halo123.top/tags/%E6%A4%8D%E7%89%A9%E7%94%9F%E7%90%86%E5%AD%A6/</loc>
+    <lastmod>2021-04-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://halo123.top/tags/Pyhton/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
@@ -929,13 +936,6 @@
   
   <url>
     <loc>http://halo123.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</loc>
-    <lastmod>2021-04-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://halo123.top/tags/%E6%A4%8D%E7%89%A9%E7%94%9F%E7%90%86%E5%AD%A6/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -958,14 +958,14 @@
 
   
   <url>
-    <loc>http://halo123.top/categories/Git/</loc>
+    <loc>http://halo123.top/categories/Web/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/Web/</loc>
+    <loc>http://halo123.top/categories/Git/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1035,14 +1035,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/Linux/</loc>
+    <loc>http://halo123.top/categories/Book/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/Book/</loc>
+    <loc>http://halo123.top/categories/Linux/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1112,14 +1112,14 @@
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/%E8%80%83%E7%A0%94/</loc>
+    <loc>http://halo123.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://halo123.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>http://halo123.top/categories/%E8%80%83%E7%A0%94/</loc>
     <lastmod>2021-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
