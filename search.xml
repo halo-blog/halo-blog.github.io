@@ -8,7 +8,7 @@
       <link href="2021/04/27/DataStructure/B_LinearList/"/>
       <url>2021/04/27/DataStructure/B_LinearList/</url>
       
-        <content type="html"><![CDATA[<p>【考纲内容】</p><ul><li>线性表的定义和基本操作</li><li>线性表的实现（顺序储存；链式储存；线性表的应用）</li></ul><p>【知识框架】</p><p>【复习提示】</p><p>线性表是考研命题的重点。这类算法题实现起来比较容易而且代码量较少，但却要求具有最优的性能（时间、空间复杂度），才能获得满分。因此，应牢固掌握线性表的各种基本操作（基于两种存储结构），在平时的学习中多注重培养动手能力。另外，需要提醒的是，算法最重要的是思想！考场上的时间有限，在试卷上不一定要求代码具有实际的可执行性，因此应尽力表达出算法的思想和步骤，而不必过于拘泥每个细节。注意算法题只能用C/C++语言实现。</p><h2 id="线性表的定义和基本操作"><a class="header-anchor" href="#线性表的定义和基本操作"></a>线性表的定义和基本操作</h2><h4 id="线性表的定义"><a class="header-anchor" href="#线性表的定义"></a>线性表的定义</h4><p><font color="#ea66a6">线性表</font>是具有相同数据类型的 $n (n≥0)$ 个数据元素的有限序列，其中 $n$ 为表长，当 $n=0$ 时线性表是一个空表。若用 $L$ 命名线性表，则其一般表示为：$$L=(a_1,a_2,\cdots ,a_i,a_{i+1},\cdots ,a_n)$$</p>]]></content>
+        <content type="html"><![CDATA[<p>【考纲内容】</p><ul><li>线性表的定义和基本操作</li><li>线性表的实现（顺序储存；链式储存；线性表的应用）</li></ul><p>【知识框架】</p><p>【复习提示】</p><p>线性表是考研命题的重点。这类算法题实现起来比较容易而且代码量较少，但却要求具有最优的性能（时间、空间复杂度），才能获得满分。因此，应牢固掌握线性表的各种基本操作（基于两种存储结构），在平时的学习中多注重培养动手能力。另外，需要提醒的是，算法最重要的是思想！考场上的时间有限，在试卷上不一定要求代码具有实际的可执行性，因此应尽力表达出算法的思想和步骤，而不必过于拘泥每个细节。注意算法题只能用C/C++语言实现。</p><h2 id="线性表的定义和基本操作"><a class="header-anchor" href="#线性表的定义和基本操作"></a>线性表的定义和基本操作</h2><h4 id="线性表的定义"><a class="header-anchor" href="#线性表的定义"></a>线性表的定义</h4><p><font color="#ea66a6">线性表</font>是具有相同数据类型的 $n (n≥0)$ 个数据元素的有限序列，其中 $n$ 为表长，当 $n=0$ 时线性表是一个空表。若用 $L$ 命名线性表，则其一般表示为：$$L=(a_1,a_2,\cdots ,a_i,a_{i+1},\cdots ,a_n)$$</p><p>式中，$a_1$ 是唯一的“第一个”数据元素，又称表头元素；$a_n$ 是唯一的“最后一个”数据元素，又称表尾元素。除</p>]]></content>
       
       
       
@@ -1850,25 +1850,6 @@
             <tag> Hexo </tag>
             
             <tag> GitHub </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>日语输入法的使用</title>
-      <link href="2019/06/17/%E6%97%A5%E8%AF%AD%E8%BE%93%E5%85%A5%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
-      <url>2019/06/17/%E6%97%A5%E8%AF%AD%E8%BE%93%E5%85%A5%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-      
-        <content type="html"><![CDATA[<p>微软日语输入法的简单使用来自该<a href="https://www.bilibili.com/video/av37827841">视频</a></p><hr><span id="more"></span><p><img src="https://pic.superbed.cn/item/5db3013b8b58bc7bf70c5c2b.jpg" alt="桜"></p><h2 id="切换输入模式"><a class="header-anchor" href="#切换输入模式"></a>切换输入模式</h2><ul><li><p>所有语言所有输入法之间切换Win+space（空格）</p></li><li><p>多语言默认输入法之间切换Alt+Shift</p></li><li><p>同一语言下输入法切换Ctrl+Shift</p></li><li><p>英文输入：快捷键Alt + ~（Esc键下边,数字1左边的那个键）<br>可以在直接输入【罗马字】（图标A）和当前假名输入法间切换</p></li><li><p>平假名：Ctrl + Caps Lock<br>日文模式下切换到【平假名】Hiragana（图标あ），<br>罗马字，英文输入（图标A）下则是切换回日文模式，如原先不在Hiragana，则必须多按一次。</p></li><li><p>片假名：Alt + Caps Lock<br>日文模式下切换到【片假名】，全角片假名Full-width Katakana</p></li></ul><blockquote><p>**说明:**罗马字，英文输入（图标A）下则是切换回日文模式，如原先不在Full-width Katakana，则必须多按一次。</p></blockquote><h2 id="字符选择快捷键"><a class="header-anchor" href="#字符选择快捷键"></a>字符选择快捷键</h2><p>敲完字母后<strong>不敲空格键或回车键</strong>，加按</p><ul><li>F5，转成字符集（选字或造字）</li><li>F6，恢复平假名（全角）</li><li>F7，转成片假名（全角）</li><li>F8，转成片假名（半角）</li><li>F9，转成罗马字母（全角），连续按击可以在全大写，全小写，首字母大写之间转换。</li><li>F10，转成罗马字母（半角），连续按击可以在全大写，全小写，首字母大写之间转换。</li></ul><h2 id="输入规则"><a class="header-anchor" href="#输入规则"></a>输入规则</h2><ol><li>促音的输入法：促音后的第一个字母连续输入两次。例: 設定　せってい　settei<br>单独输入促音也可以用ltu或xtu，<blockquote><p>同理 小写假名都是x或者l加原来的拼写如xaぁ 与aあ</p></blockquote></li><li>拨音的输入法:按两下&quot;n&quot;。例:　漫画　まんが　mannga</li><li>拗音的输入法:例:きゃきゅきょ kya kyu kyo （亦即是罗马字拼写法则）</li><li>长音输入法：片假名按数字0右边的-号键（减号键），平假名前面的元音多打一个</li><li>助词“を”的输入方法是“wo”</li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 日语 </tag>
             
         </tags>
       
