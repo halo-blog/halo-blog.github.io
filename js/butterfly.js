@@ -1,1 +1,1 @@
-"use strict";console.log("Hello"),window.onload=function(){var o=document.getElementById("iframe").contentWindow.document.getElementById("tabs");console.log("Hello1"),console.log(o),o.style.fontSize="16px",console.log("Hello2")},console.log("Hello3");
+"use strict";
