@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dripping  animation - in progress</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="cont">
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <div class="drip"></div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+        <feBlend in="SourceGraphic" in2="goo" />
+      </filter>
+    </defs>
+  </svg>
+
+</div>
+<!-- partial -->
+  
+</body>
+</html>

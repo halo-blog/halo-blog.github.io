@@ -1,0 +1,144 @@
+function _extends() {_extends = Object.assign || function (target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i];for (var key in source) {if (Object.prototype.hasOwnProperty.call(source, key)) {target[key] = source[key];}}}return target;};return _extends.apply(this, arguments);}console.clear();
+
+import React, {
+useState,
+useEffect,
+useLayoutEffect,
+useRef } from
+"https://cdn.skypack.dev/react";
+import ReactDOM from "https://cdn.skypack.dev/react-dom";
+
+const slides = [
+{
+  image:
+  "https://images.unsplash.com/photo-1614983646436-b3d7a8398b3f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNTU4MTkxNA&ixlib=rb-1.2.1&q=80&w=400&h=600",
+  title: "Animation" },
+
+{
+  image:
+  "https://images.unsplash.com/photo-1615421559287-5e6eecec3b80?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNTU4MjAwOQ&ixlib=rb-1.2.1&q=80&w=400&h=600",
+  title: "CSS" },
+
+{
+  image:
+  "https://images.unsplash.com/photo-1615098270177-e2db45986811?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNTU4MjAwOQ&ixlib=rb-1.2.1&q=80&w=400&h=600",
+  title: "HTML" },
+
+{
+  image:
+  "https://images.unsplash.com/photo-1615114814213-a245ffc79e9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNTU4MjAwOQ&ixlib=rb-1.2.1&q=80&w=400&h=600",
+  title: "React" }];
+
+
+
+function getRect(el) {
+  return el.getBoundingClientRect();
+}
+
+function flip(firstRect, el) {
+  requestAnimationFrame(() => {
+    const lastEl = el;
+    const lastRect = getRect(lastEl);
+    const dx = lastRect.x - firstRect.x;
+    const dy = lastRect.y - firstRect.y;
+    const dw = lastRect.width / firstRect.width;
+    const dh = lastRect.height / firstRect.height;
+    lastEl.dataset.flipping = true;
+    lastEl.style.setProperty("--dx", dx);
+    lastEl.style.setProperty("--dy", dy);
+    lastEl.style.setProperty("--dw", dw);
+    lastEl.style.setProperty("--dh", dh);
+    requestAnimationFrame(() => delete lastEl.dataset.flipping);
+  });
+}
+
+function useFlip(ref) {
+  const rectRef = useRef(null);
+  useLayoutEffect(() => {
+    if (ref.current) {
+      if (!rectRef.current) {
+        rectRef.current = getRect(ref.current);
+      }
+      flip(rectRef.current, ref.current);
+      rectRef.current = getRect(ref.current);
+    }
+  });
+}
+
+function useKeyDown(onKeyDown) {
+  useEffect(() => {
+    document.addEventListener("keydown", onKeyDown);
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, []);
+}
+
+/* ---------------------------------- */
+
+function ImageTitle(props) {
+  const ref = useRef(null);
+  useFlip(ref);
+
+  return /*#__PURE__*/React.createElement("span", _extends({}, props, { ref: ref, "data-flip": true, className: "title" }));
+}
+
+function Image({ src, title, selected, ...props }) {
+  const ref = useRef(null);
+  useFlip(ref);
+
+  return /*#__PURE__*/(
+    React.createElement("div", _extends({},
+    props, {
+      className: "image",
+      key: src,
+      "data-selected": selected || undefined }), /*#__PURE__*/
+
+    React.createElement("img", { "data-flip": true, src: src, ref: ref }), /*#__PURE__*/
+    React.createElement(ImageTitle, null, /*#__PURE__*/
+    React.createElement("strong", null, title), " 2021")));
+
+
+
+}
+
+function App() {
+  const [selected, setSelected] = useState(0);
+
+  useKeyDown(event => {
+    switch (event.key) {
+      case "ArrowRight":
+        setSelected(selected => (selected + 1) % slides.length);
+        break;
+      case "ArrowLeft":
+        setSelected(
+        selected => (slides.length + (selected - 1)) % slides.length);
+
+        break;
+      default:
+        break;}
+
+  });
+
+  return /*#__PURE__*/(
+    React.createElement("div", { className: "app" }, /*#__PURE__*/
+    React.createElement("h1", null, "@keyframers"), /*#__PURE__*/
+    React.createElement("div", { className: "gallery" },
+    slides.map((slide, index) => {
+      return /*#__PURE__*/(
+        React.createElement(Image, {
+          src: slide.image,
+          title: slide.title,
+          selected: index === selected,
+          key: index,
+          onClick: () => setSelected(index) }));
+
+
+    }))));
+
+
+
+}
+
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.querySelector("#app"));

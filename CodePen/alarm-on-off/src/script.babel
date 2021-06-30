@@ -1,0 +1,95 @@
+class Alarm extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			alarmList: [
+				{
+					title: "Wake Up",
+					time: "08:00",
+					days: "Sun, Mon, Tue, Wed, Thu"
+				},
+				{
+					title: "Lunch Time",
+					time: "13:00",
+					days: "Everyday"
+				},
+				{
+					title: "Work",
+					time: "16:30",
+					days: "Fri, Sat"
+				}
+			]
+		};
+	}
+
+	render() {
+		return (
+			<div className="background">
+				<div className="app">
+					<div className="app_header">
+						<div className="bar"></div>
+						<span className="dot"></span>
+					</div>
+					<div className="alarms">
+						<label>Your Alarms</label>
+						<ul className="alarm_list">
+							{this.state.alarmList.map((item, index) => (
+								<AlarmItem
+									key={item.index}
+									title={item.title}
+									time={item.time}
+									days={item.days}
+								/>
+							))}
+						</ul>
+					</div>
+					<div className="tabs_row">
+						<li className="tab active">
+							<span className="tab_name">alarm</span>
+						</li>
+						<li className="tab">
+							<span className="tab_name">clock</span>
+						</li>
+						<li className="tab">
+							<span className="tab_name">timer</span>
+						</li>
+					</div>
+				</div>
+			</div>
+		);
+	}
+}
+
+class AlarmItem extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			status: false
+		};
+	}
+
+	handeToggle = () => {
+		this.setState((prevState) => ({
+			status: !prevState.status
+		}));
+	};
+
+	render() {
+		return (
+			<li className={this.state.status ? "" : "off_style"}>
+				<p className="title">{this.props.title}</p>
+				<div className="time_row">
+					<span className="time">{this.props.time}</span>
+					<button className="switch" onClick={() => this.handeToggle()}>
+						<span className="line">
+							<span className={this.state.status ? "circle on" : "circle"}></span>
+						</span>
+					</button>
+				</div>
+				<p className="days">{this.props.days}</p>
+			</li>
+		);
+	}
+}
+
+ReactDOM.render(<Alarm />, document.getElementById("root"));
