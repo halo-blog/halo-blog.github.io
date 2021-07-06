@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://whl123456.top/page/about/index.html</loc>
+    <loc>https://whl123456.top/2021/04/22/ComputerNetworks/A_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</loc>
     
     <lastmod>2021-07-06</lastmod>
     
@@ -10,6 +10,13 @@
   
   <url>
     <loc>https://whl123456.top/2021/07/06/DataCollection/%E8%AE%A1%E7%AE%97%E6%9C%BA408%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB/</loc>
+    
+    <lastmod>2021-07-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/page/about/index.html</loc>
     
     <lastmod>2021-07-06</lastmod>
     
@@ -325,13 +332,6 @@
   
   <url>
     <loc>https://whl123456.top/2021/04/22/ComputerOperatingSystem/C_%E5%A4%84%E7%90%86%E6%9C%BA%E8%B0%83%E5%BA%A6/</loc>
-    
-    <lastmod>2021-05-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://whl123456.top/2021/04/22/ComputerNetworks/A_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</loc>
     
     <lastmod>2021-05-28</lastmod>
     
@@ -660,14 +660,14 @@
   </url>
   
   <url>
-    <loc>https://whl123456.top/2020/04/06/Python/Django/</loc>
+    <loc>https://whl123456.top/2020/03/24/Python/Python%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86/</loc>
     
     <lastmod>2021-04-30</lastmod>
     
   </url>
   
   <url>
-    <loc>https://whl123456.top/2020/03/24/Python/Python%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86/</loc>
+    <loc>https://whl123456.top/2020/04/06/Python/Django/</loc>
     
     <lastmod>2021-04-30</lastmod>
     
@@ -907,41 +907,6 @@
   </url>
   
   <url>
-    <loc>https://whl123456.top/tags/Hexo/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://whl123456.top/tags/Html/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://whl123456.top/tags/GitHub/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://whl123456.top/tags/Next/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://whl123456.top/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://whl123456.top/tags/Git/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
@@ -992,6 +957,41 @@
   
   <url>
     <loc>https://whl123456.top/tags/Tips/</loc>
+    <lastmod>2021-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/tags/Hexo/</loc>
+    <lastmod>2021-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/tags/Html/</loc>
+    <lastmod>2021-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/tags/Next/</loc>
+    <lastmod>2021-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/tags/GitHub/</loc>
+    <lastmod>2021-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1103,14 +1103,14 @@
   </url>
   
   <url>
-    <loc>https://whl123456.top/tags/Django/</loc>
+    <loc>https://whl123456.top/tags/%E7%88%AC%E8%99%AB/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://whl123456.top/tags/%E7%88%AC%E8%99%AB/</loc>
+    <loc>https://whl123456.top/tags/Django/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1187,14 +1187,14 @@
   </url>
   
   <url>
-    <loc>https://whl123456.top/tags/Sass/</loc>
+    <loc>https://whl123456.top/tags/Vite/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://whl123456.top/tags/Vite/</loc>
+    <loc>https://whl123456.top/tags/Sass/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1364,27 +1364,6 @@
   </url>
   
   <url>
-    <loc>https://whl123456.top/categories/Hexo/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://whl123456.top/categories/Blog/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://whl123456.top/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://whl123456.top/categories/Git/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
@@ -1421,6 +1400,27 @@
   
   <url>
     <loc>https://whl123456.top/categories/Tips/</loc>
+    <lastmod>2021-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/categories/Hexo/</loc>
+    <lastmod>2021-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/categories/Blog/</loc>
+    <lastmod>2021-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whl123456.top/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1504,14 +1504,14 @@
   </url>
   
   <url>
-    <loc>https://whl123456.top/categories/Django/</loc>
+    <loc>https://whl123456.top/categories/Python/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://whl123456.top/categories/Python/</loc>
+    <loc>https://whl123456.top/categories/Django/</loc>
     <lastmod>2021-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
